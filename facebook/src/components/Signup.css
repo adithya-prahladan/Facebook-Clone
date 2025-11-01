@@ -1,0 +1,235 @@
+body {
+    background-color: #eff1f4;
+
+}
+.signUpContainer {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+    /* background-color: #eff1f4; */
+}
+
+h1 {
+    color: #1877F2;
+    line-height: 0.9rem;
+    font-size: 3rem;
+}
+.signupCard {
+    background-color: white;
+    border-radius: 8px;
+    width: 29vw;
+    border: 1px solid white;
+    box-shadow: 0px 2px 6px 6px rgba(188, 187, 187, 0.2);
+    padding: 5;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 400px;
+}
+
+.head {
+    line-height: 0.6rem;
+}
+
+.head p {
+    font-size: 0.9rem;
+}
+
+.head h2 {
+    font-size: 1.4rem;
+}
+
+.signupCard p {
+    color: gray;
+}
+
+.userName input {
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #d2d2d2;
+    padding: 10px 16px;
+    margin: 10px 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#dobLabel {
+    text-align: left;
+    justify-content: left;
+    align-content: left;
+    color: #7e7e7e;
+    margin-right: 310px;
+}
+
+#genderLabel {
+    text-align: left;
+    justify-content: left;
+    align-content: left;
+    color: #7e7e7e;
+    margin-right: 340px;
+}
+
+.dropDown select {
+    border-radius: 6px;
+    padding: 8px 18px;
+    border: 1px solid #d2d2d2;
+    background-color: white;
+    color: black;
+    width: 8rem;
+    margin: 5px;
+    font-weight: 600;
+
+}
+
+hr {
+    border: none;
+    border-top: 0.5px solid rgb(222, 221, 221);
+    height: 0;
+    margin: 16px 0;
+}
+
+.dropDown label {
+    font-size: 0.8rem;
+    text-align: left;
+    align-content: left;
+}
+
+.genderClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.gender {
+    display: flex;
+    border-radius: 6px;
+    padding: 7px 18px;
+    border: 1px solid #d2d2d2;
+    background-color: white;
+    color: black;
+    width: 5.7rem;
+    margin: 5px;
+    justify-content: space-between;
+    align-content: center;
+    text-align: left;
+    font-weight: 500;
+
+
+    
+}
+
+.gender input {
+    accent-color: #1877F2;
+    /* fill-rule: rgb(245, 245, 245); */
+    /* background-color: #fff; */
+    fill: #fff;
+    
+
+}
+
+.mobPass {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 10px;
+    
+}
+.mobPass p {
+    margin: 11px;
+}
+
+.mobPass input {
+    width: 86%;
+    border-radius: 4px;
+    padding: 8px 20px;
+    border: 1px solid #d2d2d2;
+    background-color: white;
+    color: black;
+    margin: 9px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+
+}
+
+.mobPass a{
+    color: #193d68e1;
+}
+
+.bottom button {
+    background-color: rgb(44, 169, 44);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 6px 64px;
+}
+
+.bottom a {
+    color: #1877F2;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.bottom button:hover {
+  background-color: rgb(28, 155, 28);
+  border: none;
+  text-decoration: none;
+  
+
+}
+
+#signUp {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* Responsive */
+@media (max-width: 900px) {
+  .signUpContainer {
+    width: 100%;
+
+}
+.signupCard {
+    width: 100%;
+    margin-left: 0;
+}
+.userName input{
+    margin: 5px;
+    width: 150px;
+}
+#genderLabel{
+    margin-right: 310px;
+}
+#dobLabel{
+    margin-right: 280px;
+}
+.dropDown select{
+    width: 7.5rem;
+
+}
+.gender {
+    
+    padding: 8px 7.5px;
+    margin: 15px;
+  
+}
+.mobPass input{
+    width: 86%;
+    margin: 7px;
+
+}
+}
+
+@media (max-width: 480px){
+    .signupCard{
+        margin-left: 0;
+    }
+}
